@@ -111,7 +111,7 @@
 			      <h2 class="content__header"> ДЕЛАЕМ МАРКЕТИНГ<br> И ОРГАНИЗОВЫВАЕМ ПРОДАЖИ </h2>
 			      <p class="content__paragraph">Cоздаём маркетинговые стратегии, разрабатываем сайты, делаем SEO и контекст, запускаем лендинги с сумасшедшей конверсией, продаем через мероприятия и социальные сети.</p>
 
-			      <p class="content__paragraph">А еще мы ведем роскошный <a href="/blog">блог</a>.</p>
+			      <p class="content__paragraph">А еще мы ведем роскошный <a href="https://vk.com/ogenstvo">блог</a>.</p>
 			      
 			      <h2 class="content__secondheader">СВЯЖИТЕСЬ С НАМИ</h2>
 			      <p class="content__paragraph">Не спамим и пишем только по делу.</p>
