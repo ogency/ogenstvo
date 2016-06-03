@@ -5,7 +5,6 @@
 <title><?php print $head_title; ?></title>
 <?php print $head; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5">
-<link rel="shortcut icon" href="../images/favicon.png" type="image/png">
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 <?php print $page_top; ?>

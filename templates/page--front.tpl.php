@@ -93,7 +93,7 @@
                  <hgroup>
                 <?php if ($logo): ?> <!-- Если задан логотип - выводим логотип -->
                      <a title="<?php print t('Home'); ?>" rel="home" href="<?php print $front_page; ?>">
-                     <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
+                     <img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
                 <?php endif; ?>
   					    <p class="phone">8 (812) 989-11-65</p>
                 <?php if ($site_name): ?> <!-- Если заданно имя сайта - выводим -->
@@ -111,7 +111,7 @@
 			      <h2 class="content__header"> ДЕЛАЕМ МАРКЕТИНГ<br> И ОРГАНИЗОВЫВАЕМ ПРОДАЖИ </h2>
 			      <p class="content__paragraph">Cоздаём маркетинговые стратегии, разрабатываем сайты, делаем SEO и контекст, запускаем лендинги с сумасшедшей конверсией, продаем через мероприятия и социальные сети.</p>
 
-			      <p class="content__paragraph">А еще мы ведем роскошный <a href="google.ru">блог</a>.</p>
+			      <p class="content__paragraph">А еще мы ведем роскошный <a href="/blog">блог</a>.</p>
 			      
 			      <h2 class="content__secondheader">СВЯЖИТЕСЬ С НАМИ</h2>
 			      <p class="content__paragraph">Не спамим и пишем только по делу.</p>
