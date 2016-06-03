@@ -1,0 +1,389 @@
+
+/*
+
+-------------------     Обнуление -------------------
+
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+
+------- Конец обнуления -------------
+
+*/
+
+body {
+	background-color: #ffffff;
+	width: 100%;
+	height: auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 100%;
+	
+}
+
+/*
+
+--------------------- Header -------------------
+
+*/
+
+header {
+	height: 140px;
+	width: 100%;
+}
+
+.phone {
+	float: right;
+	margin-right: 11.25%;
+	margin-top: 1.82%;
+	font-size: 3.125em;
+	font-weight: bold ;
+	
+}
+
+.logo {
+	margin-left: 11.25%;
+	margin-top: 1%;
+}
+.menu {
+	display: none;
+}
+/*
+
+--------END HEADER ---------
+
+*/
+
+
+
+
+/*
+
+--------------- Content ----------------------
+
+*/
+.wrap {
+	/* Это для прибития футера */
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}
+
+content {
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	flex: 1;
+}
+
+.content__header {
+	font-weight: bold;
+	font-size: 3.5em;
+	margin-top: 4%;
+	line-height: 1.2;
+}
+
+.content__secondheader {
+	font-weight: bold;
+	font-size: 3.5em;
+	margin-top: 6%;
+}
+
+.content__paragraph {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 2.25em;
+	line-height: auto;
+}
+
+/*
+
+---------- Form ------------------
+
+*/
+
+
+
+.content-form {
+	margin-top: 2%;
+	color: #666666;
+	font-size: 1.875em;
+}
+
+.content-form__input {
+	width: 50%;
+	border-bottom: 1px solid #cccccc;
+	margin-top: 2%;
+}
+
+.content-form__button {
+	background-color: #333333;
+	color: #ffffff;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	padding: 1% 3% 1% 3%;
+	border-radius: 6px;
+}
+
+.content-form__button:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/*
+
+
+	Изменение placeholder
+
+*/
+
+
+::-webkit-input-placeholder {
+	color:#666666;
+	font-family: 'Open Sans Condensed';
+}
+
+::-moz-placeholder {
+	color:#666666;
+}/* Firefox 19+ */
+
+:-moz-placeholder {
+	color:#666666;
+}/* Firefox 18- */
+
+:-ms-input-placeholder {
+	color:#666666;
+}
+
+.content-form__input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.content-form__input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.content-form__input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.content-form__input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.content-form__input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.content-form__input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.content-form__input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.content-form__input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+
+/*
+
+Конец изменения placeholder
+
+Конец Form
+
+*/
+
+
+footer {
+	width: 100%;
+	height: 220px;
+	background-color: #333333;
+	color: #ffffff;
+	font-size: 1.5em;
+
+}
+
+nav {
+	width: 60%;
+	height: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a:link {
+	color:#ffffff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color:#ffffff;
+	text-decoration: none;
+}
+
+.nav-menu {
+	width: 25%;
+	height: 60%;
+	text-align: center;
+}
+
+
+.nav-menu li {
+	padding: 1px;
+	margin-top: 6px;
+}
+
+.nav-info {
+	text-align: center;
+	height: 60%;
+	
+}
+.nav-info p  {
+	padding: 1px;
+	margin-top: 6px;
+	
+}
+
+.copyright {
+	color:#ffffff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*
+
+---------- Адаптация ----------------
+
+*/
+
+@media screen and  (max-width: 640px) {
+	
+	body {
+		font-size: 40%;
+	}
+	
+	header {
+		height: 100px;
+	}
+
+	.logo {
+		margin-left: 8%;
+		margin-top: 1%;
+	}
+	.phone {
+		display: none;
+	}
+
+	
+	content {
+		
+		min-width: 80%;
+		
+	}
+	
+	.wrap {
+		min-height: 100vh;
+	}
+	.content__paragraph {
+	
+		margin-top: 2%;
+		font-size: 2.6em;
+		line-height: auto;
+	}
+	
+	.content-form {
+		
+		font-size: 2.875em;
+	}
+	
+	footer {
+		height: 40px;
+		font-size: 2em;
+
+	}
+	nav {
+		display: none;
+	}
+
+	.copyright {
+		padding-top: 10px;
+
+	}
+
+}
+
+@media screen and  (max-width: 1020px) {
+
+	body {
+		 font-size: 72%;
+	}
+
+	header {
+		height: 100px;
+	}
+	.phone {
+		float: right;
+		margin-right: 5%;
+		margin-top: 2.82%;
+		font-size: 2.825em;
+		font-weight: bold ;
+	
+	}
+	.logo {
+		margin-left: 5%;
+		margin-top: 1%;
+	}
+	
+
+	content {
+	    width: 65%;
+	}
+	
+	.wrap {
+		min-height: 100vh;
+	}
+
+	.content__paragraph {
+	
+		margin-top: 2%;
+		font-size: 2.6em;
+		line-height: auto;
+	}
+	
+	.content-form {
+		
+		font-size: 2.875em;
+	}
+	
+
+	.copyright {
+		padding-top: 10px;
+
+	}
+}
