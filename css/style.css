@@ -1,4 +1,3 @@
-
 /*
 
 -------------------     Обнуление -------------------
@@ -53,6 +52,12 @@ table {
 ------- Конец обнуления -------------
 
 */
+
+#first-time {
+  z-index:-99999;
+  color:white;
+  margin-bottom: 2%;
+}
 
 body {
 	background-color: #ffffff;
@@ -146,17 +151,12 @@ content {
 */
 
 
-
-.content-form {
-	margin-top: 2%;
-	color: #666666;
-	font-size: 1.875em;
-}
-
 .content-form__input {
 	width: 50%;
 	border-bottom: 1px solid #cccccc;
 	margin-top: 2%;
+	color: #666666;
+	font-size: 1.875em;
 }
 
 .content-form__button {
@@ -166,6 +166,7 @@ content {
 	margin-bottom: 4%;
 	padding: 1% 3% 1% 3%;
 	border-radius: 6px;
+	font-size: 1.875em;
 }
 
 .content-form__button:hover {
@@ -293,7 +294,8 @@ footer a:visited {
 	}
 
 	.logo {
-		margin-left: 8%;
+		margin:0 auto;
+                margin-left: 1%;
 		margin-top: 1%;
 	}
 	.phone {

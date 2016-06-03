@@ -116,23 +116,7 @@
 			      <h2 class="content__secondheader">СВЯЖИТЕСЬ С НАМИ</h2>
 			      <p class="content__paragraph">Не спамим и пишем только по делу.</p>
 			      
-			      <form action="#" name="mainpage-form" class="content-form">
- 		 	      <div>
-    	      		<label for="user-name"></label>
-    	      		<input type="text" class="content-form__input" placeholder="Имя" name="user-name"/>
-  		      	</div>
-  		      	<div>
-    	      		<label for="user_number"></label>
-    	      		<input type="number" class="content-form__input" placeholder="Телефон" name="user_number"/>
-  		      	</div>
-  		      	<div>
-    	      		<label for="user-email"></label>
-    	      		<input type="mail"  class="content-form__input" placeholder="Почта" name="user-email"/>
-  		      	</div>
-  		      	<div>
-    	      		<input type="submit" class="content-form__button"value="Отправить"/>
-  		      	</div>
-			      </form>
+            <?php print render($page['content']); /* Выводим регион "контент" */ ?>
         </content>
         </div>
         <footer> <!-- подвал сайта с регионом footer -->
