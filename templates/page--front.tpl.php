@@ -104,7 +104,7 @@
                      <h2><?php print $site_slogan; ?></h2>
                 <?php endif; ?>
                 </hgroup>
-        <?php endif; ?>
+                <?php endif; ?>
         </header>
         <div class="wrap">
         <content>
@@ -117,6 +117,7 @@
 			      <p class="content__paragraph">Не спамим и пишем только по делу.</p>
 			      
             <?php print render($page['content']); /* Выводим регион "контент" */ ?>
+            <?php print $messages; /* Выводим сообщения системы */ ?>
         </content>
         </div>
         <footer> <!-- подвал сайта с регионом footer -->
