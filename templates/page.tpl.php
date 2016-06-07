@@ -130,7 +130,7 @@
 		        		<a href="/soon"><li>Маркетинговый анализ</li></a>
 		        	</ul>
 		        	<div class="nav-info">
-		        		<p><a href="">ogenstvo@gmail.com</a></p>
+		        		<p>ogenstvo@gmail.com</p>
 		        		<p>Санкт-Петербург ул. Мира 5, офис 524 </p>
 		        	</div>
 		        </nav>

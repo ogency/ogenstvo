@@ -116,22 +116,22 @@
         <footer> <!-- подвал сайта с регионом footer -->
 		        <nav>
 		        	<ul class="nav-menu">
-		        		<a href="node/7"><li>Веб-аналитика</li></a>
-		        		<a href="node/7"><li>E-mail рассылки</li></a>
-		        		<a href="node/7"><li>Коммерческие предложения</li></a>
+		        		<a href="/soon"><li>Веб-аналитика</li></a>
+		        		<a href="/soon"><li>E-mail рассылки</li></a>
+		        		<a href="/soon"><li>Коммерческие предложения</li></a>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href="node/7"><li>Контекст</li></a>
-		        		<a href="node/7"><li>Лендинги</li></a>
-		        		<a href="node/7"><li>SMM</li></a>
+		        		<a href="/soon"><li>Контекст</li></a>
+		        		<a href="/soon"><li>Лендинги</li></a>
+		        		<a href="/soon"><li>SMM</li></a>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href="node/7"><li>Продвижение сайтов</li></a>
-		        		<a href="node/7"><li>Создание сайтов</li></a>
-		        		<a href="node/7"><li>Маркетинговый анализ</li></a>
+		        		<a href="/soon"><li>Продвижение сайтов</li></a>
+		        		<a href="/soon"><li>Создание сайтов</li></a>
+		        		<a href="/soon"><li>Маркетинговый анализ</li></a>
 		        	</ul>
 		        	<div class="nav-info">
-		        		<p><a href="">ogenstvo@gmail.com</a></p>
+		        		<p>ogenstvo@gmail.com</p>
 		        		<p>Санкт-Петербург ул. Мира 5, офис 524 </p>
 		        	</div>
 		        </nav>
