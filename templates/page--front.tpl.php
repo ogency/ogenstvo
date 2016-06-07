@@ -96,13 +96,6 @@
                      <img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
                 <?php endif; ?>
   					    <p class="phone">8 (812) 989-11-65</p>
-                <?php if ($site_name): ?> <!-- Если заданно имя сайта - выводим -->
-                     <h1><a title="<?php print t('Home'); ?>" rel="home" href="<?php print $front_page; ?>">
-                                     <?php print $site_name; ?></a></h1>
-                <?php endif; ?>
-                <?php if ($site_slogan): ?> <!-- Если задан слоган сайта - выводим -->
-                     <h2><?php print $site_slogan; ?></h2>
-                <?php endif; ?>
                 </hgroup>
                 <?php endif; ?>
         </header>
@@ -123,19 +116,19 @@
         <footer> <!-- подвал сайта с регионом footer -->
 		        <nav>
 		        	<ul class="nav-menu">
-		        		<a href="google.ru"><li>Веб-аналитика</li></a>
-		        		<a href=""><li>E-mail рассылки</li></a>
-		        		<a href=""><li>Коммерческие предложения</li></a>
+		        		<a href="node/7"><li>Веб-аналитика</li></a>
+		        		<a href="node/7"><li>E-mail рассылки</li></a>
+		        		<a href="node/7"><li>Коммерческие предложения</li></a>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href=""><li>Контекст</li></a>
-		        		<a href=""><li>Лендинги</li></a>
-		        		<a href=""><li>SMM</li></a>
+		        		<a href="node/7"><li>Контекст</li></a>
+		        		<a href="node/7"><li>Лендинги</li></a>
+		        		<a href="node/7"><li>SMM</li></a>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href=""><li>Продвижение сайтов</li></a>
-		        		<a href=""><li>Создание сайтов</li></a>
-		        		<a href=""><li>Маркетинговый анализ</li></a>
+		        		<a href="node/7"><li>Продвижение сайтов</li></a>
+		        		<a href="node/7"><li>Создание сайтов</li></a>
+		        		<a href="node/7"><li>Маркетинговый анализ</li></a>
 		        	</ul>
 		        	<div class="nav-info">
 		        		<p><a href="">ogenstvo@gmail.com</a></p>

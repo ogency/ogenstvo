@@ -95,31 +95,45 @@
                      <a title="<?php print t('Home'); ?>" rel="home" href="<?php print $front_page; ?>">
                      <img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
                 <?php endif; ?>
-                <?php if ($site_name): ?> <!-- Если заданно имя сайта - выводим -->
-                     <h1><a title="<?php print t('Home'); ?>" rel="home" href="<?php print $front_page; ?>">
-                                     <?php print $site_name; ?></a></h1>
-                <?php endif; ?>
-                <?php if ($site_slogan): ?> <!-- Если задан слоган сайта - выводим -->
-                     <h2><?php print $site_slogan; ?></h2>
-                <?php endif; ?>
+  					    <p class="phone">8 (812) 989-11-65</p>
                 </hgroup>
-        <?php endif; ?>
+                <?php endif; ?>
         </header>
         <div class="wrap">
         <content>
         <div id="article_wrapper" > <!--Правая колонка-->
-        <?php print $breadcrumb; /* Выводим "Выводим "хлебне крошки" */ ?>
-        <?php print $messages; /* Выводим сообщения системы */ ?>
           <!-- Заголовок с суффиксом и преффиксом -->
-        <?php print render($title_suffix); ?>
+        <?php print render($title_prefix); ?>
         <?php if($title): ?> <h1><?php print $title; ?></h1><?php endif; ?>
         <?php print render($title_suffix); ?>
         <?php print render($tabs); /* Выводим табы */ ?>
         <?php print render($page['content']); /* Выводим регион "контент" */ ?>
+        <?php print $messages; /* Выводим сообщения системы */ ?>
         </div>
         </content>
         </div>
         <footer> <!-- подвал сайта с регионом footer -->
-         <?php print render($page['footer']); ?>
+		        <nav>
+		        	<ul class="nav-menu">
+		        		<a href="/soon"><li>Веб-аналитика</li></a>
+		        		<a href="/soon"><li>E-mail рассылки</li></a>
+		        		<a href="/soon"><li>Коммерческие предложения</li></a>
+		        	</ul>
+		        	<ul class="nav-menu">
+		        		<a href="/soon"><li>Контекст</li></a>
+		        		<a href="/soon"><li>Лендинги</li></a>
+		        		<a href="/soon"><li>SMM</li></a>
+		        	</ul>
+		        	<ul class="nav-menu">
+		        		<a href="/soon"><li>Продвижение сайтов</li></a>
+		        		<a href="/soon"><li>Создание сайтов</li></a>
+		        		<a href="/soon"><li>Маркетинговый анализ</li></a>
+		        	</ul>
+		        	<div class="nav-info">
+		        		<p><a href="">ogenstvo@gmail.com</a></p>
+		        		<p>Санкт-Петербург ул. Мира 5, офис 524 </p>
+		        	</div>
+		        </nav>
+		        <p class="copyright">2016 Огенство, Inc. Все права защищены.</p>
         </footer>
 </div>
