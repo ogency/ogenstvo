@@ -53,6 +53,8 @@ table {
 
 */
 
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic&subset=latin,cyrillic); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic);
 
 body {
 	background-color: #ffffff;
