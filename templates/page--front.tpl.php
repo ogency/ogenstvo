@@ -90,45 +90,43 @@
         <header id="header" > <!-- Шапка сайта -->
                 <?php if ($site_name || $site_slogan || $logo): ?>
                  <!-- если задано имя сайта, слоган или лого выводим блок заголовков -->
-                 <hgroup>
                 <?php if ($logo): ?> <!-- Если задан логотип - выводим логотип -->
                      <a title="<?php print t('Home'); ?>" rel="home" href="<?php print $front_page; ?>">
                      <img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
                 <?php endif; ?>
   					    <p class="phone">8 (812) 989-11-65</p>
-                </hgroup>
                 <?php endif; ?>
         </header>
         <div class="wrap">
-        <content>
-			      <h2 class="content__header"> ДЕЛАЕМ МАРКЕТИНГ<br> И ОРГАНИЗОВЫВАЕМ ПРОДАЖИ </h2>
-			      <p class="content__paragraph">Cоздаём маркетинговые стратегии, разрабатываем сайты, делаем SEO и контекст, запускаем лендинги с сумасшедшей конверсией, продаем через мероприятия и социальные сети.</p>
+        <div class="b_content">
+			      <h2 class="b_content__header"> ДЕЛАЕМ МАРКЕТИНГ<br> И ОРГАНИЗОВЫВАЕМ ПРОДАЖИ </h2>
+			      <p class="b_content__paragraph">Cоздаём маркетинговые стратегии, разрабатываем сайты, делаем SEO и контекст, запускаем лендинги с сумасшедшей конверсией, продаем через мероприятия и социальные сети.</p>
 
-			      <p class="content__paragraph">А еще мы ведем роскошный <a href="https://vk.com/ogenstvo">блог</a>.</p>
+			      <p class="b_content__paragraph">А еще мы ведем роскошный <a href="https://vk.com/ogenstvo">блог</a>.</p>
 			      
-			      <h2 class="content__secondheader">СВЯЖИТЕСЬ С НАМИ</h2>
-			      <p class="content__paragraph">Не спамим и пишем только по делу.</p>
+			      <h2 class="b_content__secondheader">СВЯЖИТЕСЬ С НАМИ</h2>
+			      <p class="b_content__paragraph">Не спамим и пишем только по делу.</p>
 			      
             <?php print render($page['content']); /* Выводим регион "контент" */ ?>
             <?php print $messages; /* Выводим сообщения системы */ ?>
-        </content>
+        </div>
         </div>
         <footer> <!-- подвал сайта с регионом footer -->
 		        <nav>
 		        	<ul class="nav-menu">
-		        		<a href="/soon"><li>Веб-аналитика</li></a>
-		        		<a href="/soon"><li>E-mail рассылки</li></a>
-		        		<a href="/soon"><li>Коммерческие предложения</li></a>
+		        		<li><a href="/soon">Веб-аналитика</a></li>
+		        		<li><a href="/soon">E-mail рассылки</a></li>
+		        		<li><a href="/soon">Коммерческие предложения</a></li>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href="/soon"><li>Контекст</li></a>
-		        		<a href="/soon"><li>Лендинги</li></a>
-		        		<a href="/soon"><li>SMM</li></a>
+		        		<li><a href="/soon">Контекст</a></li>
+		        		<li><a href="/soon">Лендинги</a></li>
+		        		<li><a href="/soon">SMM</a></li>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href="/soon"><li>Продвижение сайтов</li></a>
-		        		<a href="/soon"><li>Создание сайтов</li></a>
-		        		<a href="/soon"><li>Маркетинговый анализ</li></a>
+		        		<li><a href="/soon">Продвижение сайтов</a></li>
+		        		<li><a href="/soon">Создание сайтов</a></li>
+		        		<li><a href="/soon">Маркетинговый анализ</a></li>
 		        	</ul>
 		        	<div class="nav-info">
 		        		<p>ogenstvo@gmail.com</p>

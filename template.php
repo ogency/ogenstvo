@@ -161,7 +161,7 @@ function ogenstvo_field__taxonomy_term_reference($variables) {
 function ogenstvo_form_alter(&$form, &$form_state, $form_id) {
   //dsm($form);
   if ($form_id == 'webform_client_form_1') {
-    array_push($form['actions']['submit']['#attributes']['class'], 'content-form__btn');
+    array_push($form['actions']['submit']['#attributes']['class'], 'b_content-form__btn');
     $form['actions']['submit']['#value'] = 'Отправить';
   }
 }

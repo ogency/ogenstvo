@@ -90,44 +90,44 @@
         <header id="header" > <!-- Шапка сайта -->
                 <?php if ($site_name || $site_slogan || $logo): ?>
                  <!-- если задано имя сайта, слоган или лого выводим блок заголовков -->
-                 <hgroup>
                 <?php if ($logo): ?> <!-- Если задан логотип - выводим логотип -->
                      <a title="<?php print t('Home'); ?>" rel="home" href="<?php print $front_page; ?>">
                      <img class="logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
                 <?php endif; ?>
   					    <p class="phone">8 (812) 989-11-65</p>
-                </hgroup>
                 <?php endif; ?>
         </header>
         <div class="wrap">
-        <content>
+        <div class="b_content">
         <div id="article_wrapper" > <!--Правая колонка-->
           <!-- Заголовок с суффиксом и преффиксом -->
         <?php print render($title_prefix); ?>
         <?php if($title): ?> <h1><?php print $title; ?></h1><?php endif; ?>
         <?php print render($title_suffix); ?>
         <?php print render($tabs); /* Выводим табы */ ?>
+        <div class="b_content__paragraph">
         <?php print render($page['content']); /* Выводим регион "контент" */ ?>
+        </div>
         <?php print $messages; /* Выводим сообщения системы */ ?>
         </div>
-        </content>
+        </div>
         </div>
         <footer> <!-- подвал сайта с регионом footer -->
 		        <nav>
 		        	<ul class="nav-menu">
-		        		<a href="/soon"><li>Веб-аналитика</li></a>
-		        		<a href="/soon"><li>E-mail рассылки</li></a>
-		        		<a href="/soon"><li>Коммерческие предложения</li></a>
+		        		<li><a href="/soon">Веб-аналитика</a></li>
+		        		<li><a href="/soon">E-mail рассылки</a></li>
+		        		<li><a href="/soon">Коммерческие предложения</a></li>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href="/soon"><li>Контекст</li></a>
-		        		<a href="/soon"><li>Лендинги</li></a>
-		        		<a href="/soon"><li>SMM</li></a>
+		        		<li><a href="/soon">Контекст</a></li>
+		        		<li><a href="/soon">Лендинги</a></li>
+		        		<li><a href="/soon">SMM</a></li>
 		        	</ul>
 		        	<ul class="nav-menu">
-		        		<a href="/soon"><li>Продвижение сайтов</li></a>
-		        		<a href="/soon"><li>Создание сайтов</li></a>
-		        		<a href="/soon"><li>Маркетинговый анализ</li></a>
+		        		<li><a href="/soon">Продвижение сайтов</a></li>
+		        		<li><a href="/soon">Создание сайтов</a></li>
+		        		<li><a href="/soon">Маркетинговый анализ</a></li>
 		        	</ul>
 		        	<div class="nav-info">
 		        		<p>ogenstvo@gmail.com</p>

@@ -54,7 +54,7 @@ table {
 */
 
 /* @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,300italic&subset=latin,cyrillic); */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic); */
 
 body {
 	background-color: #ffffff;
@@ -71,6 +71,7 @@ h1 {
 	margin-top: 4%;
 	line-height: 1.2;
 }
+
 /*
 
 --------------------- Header -------------------
@@ -119,32 +120,31 @@ header {
   	flex-direction: column;
 }
 
-content {
+.b_content {
 	margin: 0 auto;
 	width: 50%;
 	text-align: center;
 	flex: 1;
 }
 
-.content__header {
+.b_content__header {
 	font-weight: bold;
 	font-size: 3.5em;
 	margin-top: 4%;
 	line-height: 1.2;
 }
 
-.content__secondheader {
+.b_content__secondheader {
 	font-weight: bold;
 	font-size: 3.5em;
 	margin-top: 6%;
 }
 
-.content__paragraph {
+.b_content__paragraph {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 2%;
 	font-size: 2.25em;
-	line-height: auto;
 }
 
 /*
@@ -154,7 +154,7 @@ content {
 */
 
 
-.content-form__input {
+.b_content-form__input {
 	width: 50%;
 	border-bottom: 1px solid #cccccc;
 	margin-top: 2%;
@@ -162,7 +162,7 @@ content {
 	font-size: 1.875em;
 }
 
-.content-form__btn {
+.b_content-form__btn {
 	background-color: #333333;
 	color: #ffffff;
 	margin-top: 4%;
@@ -172,7 +172,7 @@ content {
 	font-size: 1.875em;
 }
 
-.content-form__btn:hover {
+.b_content-form__btn:hover {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 /*
@@ -200,14 +200,14 @@ content {
 	color:#666666;
 }
 
-.content-form__input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
-.content-form__input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
-.content-form__input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
-.content-form__input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
-.content-form__input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-.content-form__input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-.content-form__input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-.content-form__input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+.b_content-form__input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.b_content-form__input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.b_content-form__input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.b_content-form__input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.b_content-form__input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.b_content-form__input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.b_content-form__input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.b_content-form__input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
 
 
 /*
@@ -306,7 +306,7 @@ footer a:visited {
 	}
 
 	
-	content {
+	.b_content {
 		
 		min-width: 80%;
 		
@@ -315,14 +315,14 @@ footer a:visited {
 	.wrap {
 		min-height: 100vh;
 	}
-	.content__paragraph {
+	.b_content__paragraph {
 	
 		margin-top: 2%;
 		font-size: 2.6em;
-		line-height: auto;
+		;
 	}
 	
-	.content-form {
+	.b_content-form {
 		
 		font-size: 2.875em;
 	}
@@ -366,7 +366,7 @@ footer a:visited {
 	}
 	
 
-	content {
+	b_content {
 	    width: 65%;
 	}
 	
@@ -374,17 +374,23 @@ footer a:visited {
 		min-height: 100vh;
 	}
 
-	.content__paragraph {
+	.b_content__paragraph {
 	
 		margin-top: 2%;
 		font-size: 2.6em;
-		line-height: auto;
+		
 	}
 	
-	.content-form {
+	.b_content-form {
 		
 		font-size: 2.875em;
 	}
+        
+        nav {
+	       width: 80%;
+	height: 80%;
+	
+}
 	
 
 	.copyright {
@@ -416,7 +422,7 @@ footer a:visited {
 	}
 	
 
-	content {
+	.b_content {
 	    width: 54%;
 	}
 	
@@ -424,14 +430,14 @@ footer a:visited {
 		min-height: 100vh;
 	}
 
-	.content__paragraph {
+	.b_content__paragraph {
 	
 		margin-top: 2%;
 		font-size: 2.6em;
-		line-height: auto;
+		
 	}
 	
-	.content-form {
+	.b_content-form {
 		
 		font-size: 2.875em;
 	}
